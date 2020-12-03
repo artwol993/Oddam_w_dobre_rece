@@ -1,0 +1,13 @@
+.nav_container {
+    height: 80px;
+    background: yellow;
+    display: flex;
+    // margin-top: -100px;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+    @media screen and(max-width: 960px) {
+        transition: 0.8s all ease;
+    }
+}
