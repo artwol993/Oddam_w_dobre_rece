@@ -1,0 +1,8 @@
+@import "./settings/";
+@import "_colors";
+@import "_fonts";
+
+.App {
+    color: $firstColor;
+    background-color: $secondColor;
+}

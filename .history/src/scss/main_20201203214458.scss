@@ -1,0 +1,9 @@
+@import "./settings/reset";
+@import "./settings/colors";
+@import "./settings/fonts";
+
+.App {
+    color: $firstColor;
+    background-color: $secondColor;
+    font-family: $font-alt;
+}

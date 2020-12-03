@@ -1,0 +1,8 @@
+@import "./settings/reset";
+@import "./settings/";
+@import "_fonts";
+
+.App {
+    color: $firstColor;
+    background-color: $secondColor;
+}

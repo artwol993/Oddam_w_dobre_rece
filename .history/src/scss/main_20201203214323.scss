@@ -1,0 +1,8 @@
+@import "./settings/reset";
+@import "./settings/colors";
+@import "./settings/";
+
+.App {
+    color: $firstColor;
+    background-color: $secondColor;
+}
