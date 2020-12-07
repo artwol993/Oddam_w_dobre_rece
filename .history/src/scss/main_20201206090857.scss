@@ -1,0 +1,15 @@
+
+//settings
+@import "./settings/reset";
+@import "./settings/colors";
+@import "./settings/fonts";
+
+
+@import "./navbar";
+
+.body {
+    font-family: $font-base;
+    color: $c-font1;
+}
+
+

@@ -1,0 +1,9 @@
+@import "./settings/reset";
+@import "./settings/colors";
+@import "./settings/fonts";
+@import
+
+.body {
+    font-family: $font-base;
+    color: $c-font1;
+}

@@ -1,0 +1,22 @@
+
+//settings
+@import "./settings/reset";
+@import "./settings/colors";
+@import "./settings/fonts";
+
+$fa-font-path: '@fortawesome/fontawesome-free/webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+@import '@fortawesome/fontawesome-free/scss/solid';
+@import '@fortawesome/fontawesome-free/scss/regular';
+@import '@fortawesome/fontawesome-free/scss/brands';
+@import '@fortawesome/fontawesome-free/scss/v4-shims';
+
+//components
+
+
+.body {
+    font-family: $font-base;
+    color: $c-font1;
+}
+
+

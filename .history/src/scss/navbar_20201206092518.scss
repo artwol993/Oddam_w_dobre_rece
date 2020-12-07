@@ -1,0 +1,29 @@
+.nav_container {
+    height: 80px;
+    background: yellow;
+    display: flex;
+    // margin-top: -100px;
+    align-items: center;
+    justify-content: flex-end;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    width: 50vw;
+}
+
+.nav_item {
+    list-style: none;
+    margin: 12px;
+    border: solid 1px #3c3c3c;
+}
+
+.nav_link {
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+}

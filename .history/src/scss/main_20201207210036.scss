@@ -1,0 +1,17 @@
+
+//settings
+@import "./settings/reset";
+@import "./settings/colors";
+@import "./settings/fonts";
+
+
+
+//components
+
+
+.body {
+    font-family: $font-base;
+    color: $c-font1;
+}
+
+
