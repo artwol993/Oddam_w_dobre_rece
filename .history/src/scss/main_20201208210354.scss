@@ -1,0 +1,18 @@
+
+//settings
+@import "./settings/reset";
+@import "./settings/colors";
+@import "./settings/fonts";
+
+
+@import '@fortawesome/fontawesome-free/scss/fontawesome';
+
+//components
+
+
+.body {
+    font-family: $font-base;
+    color: $c-font1;
+}
+
+
