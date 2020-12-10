@@ -1,0 +1,21 @@
+.home-container {
+    display: flex;
+    height: 700px;
+}
+
+.home-background {
+    width: 50%;
+    height: 100%;
+    background-image: url(../../assets/Home-Hero-Image.jpg);
+ce
+}
+
+.home-box {
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

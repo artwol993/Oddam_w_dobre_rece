@@ -1,0 +1,36 @@
+.home-container {
+    display: flex;
+    height: 600px;
+}
+
+.home-background {
+    width: 50%;
+    height: 100%;
+    background-image: url(../../assets/Home-Hero-Image.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home-box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        margin: 7px;
+    }
+}
+
+.decoration {
+    width: 100px;
+    height: 40px;
+    background-image: url("../../assets/Decoration.svg");
+}
+
+
+.home-button {
+}
