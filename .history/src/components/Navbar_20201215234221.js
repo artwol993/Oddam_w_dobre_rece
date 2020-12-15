@@ -8,6 +8,8 @@ function Navbar() {
     const [click, setClick] = useState(true);
     const handleClick = () => setClick(!click);
 
+
+
     return (
         <>
             <nav className='navbar'>
