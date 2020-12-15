@@ -1,0 +1,37 @@
+@import "../main.scss";
+
+.profits-container {
+    height: 300px;
+    background-image: url("../../assets/3\ Columns\ Background.png");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+
+.profits-box {
+    margin: 10px;
+    padding: 30px;
+    background: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .box-number {
+        color: $c-fnt3;
+        font-size: 90px;
+        font-weight: $fw-light;
+    }
+
+    .box-tittle {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: $fw-light;
+        margin-top: 10px;
+    }
+}

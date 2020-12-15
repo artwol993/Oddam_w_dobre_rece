@@ -1,0 +1,76 @@
+.home-container {
+    display: flex;
+    height: 600px;
+}
+
+.home-background {
+    width: 50%;
+    height: 100%;
+    background-image: url(../../assets/Home-Hero-Image.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.home-box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        margin: 7px;
+        font-size: 20px;
+    }
+}
+
+.decoration {
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    background-image: url("../../assets/Decoration.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-button {
+    height: 80px;
+    width: 200px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px;
+    border: solid 1px#242424;
+}
+
+@media screen and (max-width: 990px) {
+    .home-container {
+        background-image: url(../../assets/Home-Hero-Image.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-background {
+        display: none;
+    }
+
+    .home-box {
+        width: 60%;
+        height: 80%;
+        background-color: ;
+    }
+}

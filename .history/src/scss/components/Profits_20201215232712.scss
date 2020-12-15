@@ -1,0 +1,40 @@
+@import "../main.scss";
+
+.profits-container {
+    background-image: url("../../assets/3\ Columns\ Background.png");
+    background-position: center;
+    display: flex;
+}
+
+.profits-box {
+    margin: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    .box-number {
+        color: $c-fnt3;
+        font-size: 90px;
+        font-weight: $fw-light;
+    }
+
+    .box-tittle {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    p {
+        font-size: 16px;
+        font-weight: $fw-light;
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .profits-container {
+        flex-direction: column;
+    }
+}
