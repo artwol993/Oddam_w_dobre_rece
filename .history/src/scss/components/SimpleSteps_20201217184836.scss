@@ -1,0 +1,81 @@
+@import "../main.scss";
+
+.simple-steps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.simple-steps-tittle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+
+    h2 {
+        margin-top: 25px;
+    }
+}
+
+.simple-steps-section {
+    height: 300px;
+    width: 100%;
+    background-color: $c-bg1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.simple-section-box {
+    height: 160px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 50px;
+
+    .simple-steps-box-icon {
+        width: 100%;
+        height: 50%;
+        padding: 5px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .ss-ic-1 {
+        background-image: url("../../assets/Icon-1.svg");
+    }
+
+    .ss-ic-2 {
+        background-image: url("../../assets/Icon-2.svg");
+    }
+
+    .ss-ic-3 {
+        background-image: url("../../assets/Icon-3.svg");
+    }
+
+    .ss-ic-4 {
+        background-image: url("../../assets/Icon-4.svg");
+    }
+
+    hr {
+        width: 50%;
+        margin: 5px;
+    }
+    p {
+        margin: 3px;
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+.simple-steps-footer {
+    .home-button {
+        margin: 20px;
+    }
+}
