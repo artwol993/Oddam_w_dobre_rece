@@ -1,0 +1,47 @@
+@import "../main.scss";
+
+.simple-steps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.simple-steps-tittle {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+
+    h2 {
+        margin-top: 25px;
+    }
+}
+
+.simple-steps-section {
+    height: 300px;
+    width: 100%;
+    background-color: $c-bg1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.simple-section-box {
+    height: 160px;
+    width: 120px;
+    border: solid 1px red;
+
+    .simple-steps-box-icon {
+        background-image: url("../../assets/Icon-1.svg");
+width: 100;
+    }
+}
+
+.simple-steps-footer {
+    .home-button {
+        margin: 20px;
+    }
+}

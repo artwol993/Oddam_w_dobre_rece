@@ -1,0 +1,11 @@
+@import "../main.scss";
+
+.simple-steps-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.simple-steps-tittle {
+    height: 200px;
+}
