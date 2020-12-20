@@ -1,0 +1,47 @@
+@import "../main.scss";
+
+.about-section {
+    display: flex;
+    background-color: pink;
+
+    .about-box {
+        width: 50%;
+    }
+}
+
+.about-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about-box1-container {
+
+}
+p {
+    margin: 5px;
+    text-align: center;
+}
+
+.about-signature-container {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: end;
+
+    .about-signature {
+        background-image: url("../../assets/Signature.svg");
+        width: 100px;
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
+
+.about-box2 {
+    background-image: url("../../assets/People.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

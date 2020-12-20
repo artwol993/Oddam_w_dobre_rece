@@ -1,0 +1,16 @@
+@import "../main.scss";
+
+.about-section {
+    display: flex;
+
+    .about-box {
+        width: 50%;
+    }
+}
+
+.about-box2 {
+    background-image: url("../../assets/People.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

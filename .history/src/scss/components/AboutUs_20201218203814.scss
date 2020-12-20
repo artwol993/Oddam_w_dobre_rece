@@ -1,0 +1,31 @@
+@import "../main.scss";
+
+.about-section {
+    display: flex;
+
+    .about-box {
+        width: 50%;
+    }
+}
+
+.about-box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    p {
+        margin: 5px;
+        text-align: center;
+    }
+
+.about-signature {
+background-image: url("");
+}
+}
+
+.about-box2 {
+    background-image: url("../../assets/People.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
