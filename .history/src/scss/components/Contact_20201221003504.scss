@@ -1,0 +1,17 @@
+@import "../main.scss";
+
+.contact-container {
+    display: flex;
+}
+
+.contact-box {
+    width: 50%;
+
+    .contact-box1 {
+
+        background-image: url("../../assets/Background-Contact-Form.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+}
