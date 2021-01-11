@@ -16,7 +16,7 @@ function AboutUs() {
                     </div>
                 </div>
 
-                <div className="about-box2"></div>
+                <div className="about-box about-box2"></div>
             </div>
 
         </>

@@ -5,7 +5,7 @@ function Profits() {
     return (
         <>
 
-            <div className="profits-container" id="simple-steps">
+            <div className="profits-container" id="">
                 <div className="profits-box">
                     <span className="box-number">10</span>
                     <h3 className="box-tittle">ODDANYCH WORKÓW</h3>

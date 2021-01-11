@@ -6,10 +6,13 @@
 .about-section {
     display: flex;
     height: 400px;
+
+    .about-box {
+        width: 50%;
+    }
 }
 
 .about-box1 {
-    width: 50%;
     background-color: $c-bg1;
     display: flex;
     align-items: center;
@@ -47,20 +50,17 @@
 }
 
 .about-box2 {
-    width: 50%;
     background-image: url("../../assets/People.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-@media screen and (max-width: 990px) {
 
-    .about-box1 {
-        width: 100%;
-    }
+@media screen and (max-width: 990px){
+
 
     .about-box2 {
-        display: none;
+displa
     }
 }

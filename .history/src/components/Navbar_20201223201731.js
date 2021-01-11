@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import '../scss/navbar.scss';
 import { Link as ScrollLink } from 'react-scroll';
-
-
+import { scrollToTop } from 'react-scroll/modules/mixins/animate-scroll';
 
 
 function Navbar() {
@@ -12,7 +11,7 @@ function Navbar() {
 
     return (
         <>
-
+            <scrollToTop />
             <nav className='navbar'>
                 <div className='navbar-container'>
 
@@ -45,7 +44,7 @@ function Navbar() {
                                 activeClass="active"
                                 to="simple-steps"
                                 smooth={true}
-                                offset={-80}
+                                offset={50}
                                 duration={500}
                                 onClick={handleClick}>
 
@@ -60,7 +59,7 @@ function Navbar() {
                                 activeClass="active"
                                 to="about-us"
                                 smooth={true}
-                                offset={-80}
+                                offset={50}
                                 duration={500}
                                 onClick={handleClick}>
 
@@ -74,7 +73,7 @@ function Navbar() {
                                 activeClass="active"
                                 to="who-we-help"
                                 smooth={true}
-                                offset={-80}
+                                offset={50}
                                 duration={500}
                                 onClick={handleClick}>
 
@@ -87,7 +86,7 @@ function Navbar() {
                                 activeClass="active"
                                 to="contact"
                                 smooth={true}
-                                offset={-80}
+                                offset={50}
                                 duration={500}
                                 onClick={handleClick}>
 

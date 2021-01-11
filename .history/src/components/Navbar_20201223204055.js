@@ -87,7 +87,7 @@ function Navbar() {
                                 activeClass="active"
                                 to="contact"
                                 smooth={true}
-                                offset={-80}
+                                offset={-50}
                                 duration={500}
                                 onClick={handleClick}>
 

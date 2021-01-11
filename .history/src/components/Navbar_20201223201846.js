@@ -4,7 +4,6 @@ import { Link as ScrollLink } from 'react-scroll';
 
 
 
-
 function Navbar() {
 
     const [click, setClick] = useState(true);
@@ -45,7 +44,7 @@ function Navbar() {
                                 activeClass="active"
                                 to="simple-steps"
                                 smooth={true}
-                                offset={-80}
+                                offset={50}
                                 duration={500}
                                 onClick={handleClick}>
 
@@ -60,7 +59,7 @@ function Navbar() {
                                 activeClass="active"
                                 to="about-us"
                                 smooth={true}
-                                offset={-80}
+                                offset={50}
                                 duration={500}
                                 onClick={handleClick}>
 
@@ -74,7 +73,7 @@ function Navbar() {
                                 activeClass="active"
                                 to="who-we-help"
                                 smooth={true}
-                                offset={-80}
+                                offset={50}
                                 duration={500}
                                 onClick={handleClick}>
 
@@ -87,7 +86,7 @@ function Navbar() {
                                 activeClass="active"
                                 to="contact"
                                 smooth={true}
-                                offset={-80}
+                                offset={50}
                                 duration={500}
                                 onClick={handleClick}>
 

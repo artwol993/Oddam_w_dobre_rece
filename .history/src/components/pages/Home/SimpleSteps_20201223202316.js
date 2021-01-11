@@ -5,7 +5,7 @@ function SimpleSteps() {
     return (
         <>
 
-            <div className="simple-steps-container">
+            <div className="simple-steps-container" >
 
                 <div className="simple-steps-tittle">
                     <h2>Wystarczą 4 proste kroki</h2>

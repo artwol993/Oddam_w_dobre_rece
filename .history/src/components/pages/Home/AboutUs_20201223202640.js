@@ -5,7 +5,7 @@ function AboutUs() {
     return (
         <>
             <div className="about-section" id="about-us">
-                <div className="about-box1">
+                <div className="about-box about-box1">
                     <div className="about-box1-container">
                         <h2>O nas</h2>
                         <div className="decoration"></div>
@@ -14,9 +14,10 @@ function AboutUs() {
                             <div className="about-signature"></div>
                         </div>
                     </div>
+
                 </div>
 
-                <div className="about-box2"></div>
+                <div className="about-box about-box2"></div>
             </div>
 
         </>
