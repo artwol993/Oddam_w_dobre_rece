@@ -1,0 +1,76 @@
+@import "../main.scss";
+
+.contact-container {
+    height: 500px;
+    display: flex;
+
+    .contact-box1 {
+        width: 100%;
+        // width: fit-content;
+        height: 100%;
+        background-image: url("../../assets/Background-Contact-Form.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        background-size: 70%;
+        opacity: 0.5;
+    }
+
+    .contact-box2 {
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.contact-box-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-tittle-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-box-form-container {
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.contact-box-form-part1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-box-form-part2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.contact-box-form-textarea {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.contact-form-element {
+    border: none;
+    border-bottom: 1px solid red;
+}
+
+.contact-form-element-txtarea {
+    height: 100px;
+    width: 80%;
+    border: none;
+    border-bottom: 1px solid red;
+
+    ::placeholder {
+        font-size: small;
+        word-wrap: break-word;
+    }
+}
