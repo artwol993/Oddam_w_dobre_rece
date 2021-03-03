@@ -1,0 +1,124 @@
+@import "../main.scss";
+
+.contact-container {
+    height: 800px;
+    display: flex;
+
+    .contact-theme {
+        width: 80%;
+        height: 100%;
+        background-image: url("../../assets/Background-Contact-Form.jpg");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        opacity: 0.2;
+    }
+
+    .contact-box-form {
+        width: 45%;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.form-success {
+    width: 45%;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 80px;
+
+.message-icon {
+    background-image: url("../../assets/sent.svg");
+}
+
+}
+
+.contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-tittle-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-box-form-container {
+    display: flex;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.contact-box-form-part1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    input {
+        padding: 3px;
+        outline: none;
+        margin-bottom: 5px;
+    }
+
+    p {
+        color: red;
+    }
+}
+
+.contact-box-form-part2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+    width: 100%;
+
+    input {
+        padding: 3px;
+        outline: none;
+        margin-bottom: 5px;
+    }
+
+    p {
+        color: red;
+    }
+}
+
+.contact-box-form-textarea {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    textarea {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        outline: none;
+        font-family: $font-base;
+    }
+
+    p {
+        color: red;
+    }
+}
+.contact-form-element {
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid red;
+}
+
+.contact-form-element-textarea {
+    padding: 5px;
+    border: none;
+    resize: none;
+    border-bottom: 1px solid red;
+}
+
+.contact-button-box {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
