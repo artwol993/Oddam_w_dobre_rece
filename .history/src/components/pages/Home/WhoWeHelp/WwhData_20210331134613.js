@@ -1,0 +1,5 @@
+export const WwhData = [
+{
+slide
+}
+]
