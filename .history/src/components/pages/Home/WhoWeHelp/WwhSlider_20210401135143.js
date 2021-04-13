@@ -5,7 +5,7 @@ import "../../../../scss/components/WwhSlider.scss";
 function WwhSlider() {
     const [foundations, setFoundations] = useState([])
     useEffect(() => {
-        fetch('http://localhost:3000/foundations')
+        fetch('http://localhost:3000/foundations/')
             .then(res => res.json())
             .then(data => setFoundations(data))
     }, [])
@@ -17,13 +17,20 @@ function WwhSlider() {
 
                 <div className="wwh-slide-row" >
                     <div className="wwh-slide-row-box1">
-                        <h3 className="company">Fundacja {foundations.map(el => (
-                            <h3 key={el.id}>{el.conmpany}</h3>
+
+                        <h3 className="company">Fundacja: {foundations.map(el => (
+                            <p>{el.company}</p>
                         ))}</h3>
-                        <p className="objective">Cel i misja: </p>
+
+                        <div className="objective"> Cel i misja: {foundations.map(el => (
+                            <p key={el.id}>{el.objective}</p>
+                        ))}</div>
+
                     </div>
                     <div className="wwh-slide-row-box2">
-                        <p className="items"></p>
+                        <div className="items">{foundations.map(el => (
+                            <p key={el.id}>{el.items}</p>
+                        ))}</div>
                     </div>
                 </div>
                 <div className="decoration-line"></div>
