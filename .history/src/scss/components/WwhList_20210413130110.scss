@@ -1,0 +1,16 @@
+.wwh-list-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.wwh-list-row {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pagination-elements {
+    display: flex;
+}

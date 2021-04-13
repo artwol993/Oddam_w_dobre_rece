@@ -1,0 +1,30 @@
+@import "../main.scss";
+
+.wwh-list-container {
+    width: 80%;
+}
+
+.wwh-list-row-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+    h3 {
+        text-align: start;
+    }
+}
+
+.decoration-line {
+    width: 100%;
+    background-color: $c-font1;
+    height: 1px;
+}
+
+.pagination-element {
+   list-style-type: ;
+}
+
+.pagination-elements {
+    display: flex;
+}

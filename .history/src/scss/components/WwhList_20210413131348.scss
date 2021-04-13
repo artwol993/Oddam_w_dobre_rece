@@ -1,0 +1,19 @@
+.wwh-list-container {
+    width: 80%;
+}
+
+.wwh-list-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+
+    h3 {
+        text-align: start;
+    }
+}
+
+.pagination-elements {
+    display: flex;
+}

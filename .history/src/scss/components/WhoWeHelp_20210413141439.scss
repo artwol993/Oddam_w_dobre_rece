@@ -1,0 +1,42 @@
+@import "../main.scss";
+
+.wwh-container {
+    height: 700px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wwh-button {
+    text-align: center;
+    height: 70px;
+    width: 120px;
+    padding: 10px;
+    margin-inline: 20px;
+    transition-duration: 0.2s;
+    border: 1px solid transparent;
+    background-color: transparent;
+    font-family: $font-base;
+}
+
+.wwh-button:hover {
+    border: 1px solid $c-font1;
+}
+
+.wwh-info {
+    margin-top: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+.wwh-list {
+    height: 50%;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

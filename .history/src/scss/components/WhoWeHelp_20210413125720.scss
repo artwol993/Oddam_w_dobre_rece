@@ -1,0 +1,19 @@
+.wwh-container {
+    height: 700px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wwh-list-container {
+    height: 60%;
+    width: 100%;
+    background-color: pink;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

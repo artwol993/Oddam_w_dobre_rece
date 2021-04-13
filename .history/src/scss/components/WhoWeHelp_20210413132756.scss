@@ -1,0 +1,26 @@
+.wwh-container {
+    height: 500px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wwh-list {
+    height: 60%;
+    width: 100%;
+    background-color: grey;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.decoration-line {
+    width: 80%;
+    background-color: $blackColor;
+    height: 2px;
+}

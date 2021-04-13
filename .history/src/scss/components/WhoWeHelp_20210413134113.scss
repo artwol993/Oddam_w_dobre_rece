@@ -1,0 +1,34 @@
+.wwh-container {
+    height: 700px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wwh-button-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wwh-button
+
+.wwh-info {
+    margin-top: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+.wwh-list {
+    height: 50%;
+    width: 100%;
+    background-color: grey;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

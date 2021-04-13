@@ -1,0 +1,45 @@
+.wwh-container {
+    height: 700px;
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wwh-button-container {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wwh-button {
+    padding: 15px;
+    margin: 5px;
+    transition-duration: 0.4s;
+    border: none;
+    background-color: ;
+}
+
+.wwh-button:hover {
+    border:1px solid orange;
+    background-color: white;
+}
+
+.wwh-info {
+    margin-top: 20px;
+    width: 40%;
+    text-align: center;
+}
+
+.wwh-list {
+    height: 50%;
+    width: 100%;
+    background-color: grey;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

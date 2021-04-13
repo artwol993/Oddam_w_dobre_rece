@@ -1,0 +1,17 @@
+.wwh-container {
+    height: 700px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wwh-carousel {
+    height: 60%;
+    width: 100%;
+    background-color: pink;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
