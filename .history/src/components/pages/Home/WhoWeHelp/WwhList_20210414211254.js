@@ -14,6 +14,8 @@ class WwhList extends Component {
 
     }
 
+
+
     fetchRemoteList() {
         return fetch('http://localhost:3000/foundations/')
             .then(res => res.json())
@@ -25,31 +27,6 @@ class WwhList extends Component {
                 this.setCurrentPageElements()
             })
     }
-
-    fetchRemoteListNonProfit() {
-        return fetch('http://localhost:3000/non-profit/')
-            .then(res => res.json())
-            .then(data => {
-                this.setState({
-                    list: data
-                })
-
-                this.setCurrentPageElements()
-            })
-    }
-
-    fetchRemoteListLocal() {
-        return fetch('http://localhost:3000/local/')
-            .then(res => res.json())
-            .then(data => {
-                this.setState({
-                    list: data
-                })
-
-                this.setCurrentPageElements()
-            })
-    }
-
 
     setCurrentPageElements() {
         for (let i = 0; i < LOAD_ROWS; i++) {
@@ -88,26 +65,6 @@ class WwhList extends Component {
         return paragraphs;
     }
 
-
-
-    setPaginationElements() {
-        const paginationElements = []
-        const paginationTotalElements = Math.ceil(this.state.list.length / LOAD_ROWS)
-        for (let i = 0; i < paginationTotalElements; i++) {
-            paginationElements.push(
-                <li className="pagination-element" key={i}>
-                    {i + 1}
-                </li>
-            )
-        }
-        return (
-            <ul className="pagination-elements">
-                {paginationElements}
-            </ul>
-
-        )
-    }
-
     renderCurrentPageList() {
         return (
             <div className="wwh-list-container" id="wwh-foundation">
@@ -142,3 +99,35 @@ class WwhList extends Component {
 }
 
 export default WwhList;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export default WwhSlider;

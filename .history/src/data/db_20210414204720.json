@@ -1,0 +1,228 @@
+{
+    "foundations": [
+        {
+            "id": 1,
+            "company": "Dabshots",
+            "objective": "habitasse platea dictumst maecenas ut massa",
+            "items": "ligula suspendisse ornare"
+        },
+        {
+            "id": 2,
+            "company": "Mymm",
+            "objective": "massa id nisl venenatis lacinia",
+            "items": "id sapien in"
+        },
+        {
+            "id": 3,
+            "company": "Nlounge",
+            "objective": "dolor vel est donec odio justo sollicitudin ut",
+            "items": "donec dapibus duis at"
+        },
+        {
+            "id": 4,
+            "company": "Ntags",
+            "objective": "nec euismod scelerisque quam turpis adipiscing",
+            "items": "pretium quis lectus"
+        },
+        {
+            "id": 5,
+            "company": "Gabtype",
+            "objective": "tristique est et tempus semper est quam pharetra magna ac",
+            "items": "nisi eu"
+        },
+        {
+            "id": 6,
+            "company": "Ailane",
+            "objective": "at lorem integer tincidunt ante vel ipsum praesent blandit",
+            "items": "vehicula condimentum curabitur in libero"
+        },
+        {
+            "id": 7,
+            "company": "Babbleblab",
+            "objective": "suspendisse ornare consequat lectus in",
+            "items": "vestibulum proin eu"
+        },
+        {
+            "id": 8,
+            "company": "Digitube",
+            "objective": "congue etiam justo etiam pretium iaculis justo",
+            "items": "tempus sit amet"
+        },
+        {
+            "id": 9,
+            "company": "Flashspan",
+            "objective": "habitasse platea dictumst maecenas",
+            "items": "semper sapien a libero nam"
+        },
+        {
+            "id": 10,
+            "company": "Dablist",
+            "objective": "ante vivamus tortor duis mattis egestas metus aenean fermentum",
+            "items": "dictumst etiam faucibus cursus urna"
+        },
+        {
+            "id": 11,
+            "company": "Innojam",
+            "objective": "ac enim in tempor turpis nec euismod scelerisque quam",
+            "items": "mus etiam vel augue vestibulum"
+        },
+        {
+            "id": 12,
+            "company": "Skalith",
+            "objective": "aliquet maecenas leo odio",
+            "items": "in tempus"
+        },
+        {
+            "id": 13,
+            "company": "Fivespan",
+            "objective": "metus aenean fermentum",
+            "items": "pulvinar nulla pede ullamcorper"
+        },
+        {
+            "id": 14,
+            "company": "Latz",
+            "objective": "et ultrices posuere",
+            "items": "diam neque vestibulum"
+        },
+        {
+            "id": 15,
+            "company": "Gigashots",
+            "objective": "etiam vel augue vestibulum",
+            "items": "cubilia curae mauris viverra"
+        },
+        {
+            "id": 16,
+            "company": "Zoonoodle",
+            "objective": "accumsan tellus nisi eu orci mauris lacinia sapien",
+            "items": "est congue"
+        },
+        {
+            "id": 17,
+            "company": "Pixonyx",
+            "objective": "platea dictumst morbi vestibulum",
+            "items": "dis parturient montes nascetur ridiculus"
+        },
+        {
+            "id": 18,
+            "company": "Trilia",
+            "objective": "varius nulla facilisi cras non velit nec nisi vulputate nonummy",
+            "items": "vulputate ut ultrices vel augue"
+        },
+        {
+            "id": 19,
+            "company": "Skilith",
+            "objective": "tempor convallis nulla neque libero convallis eget eleifend",
+            "items": "venenatis turpis enim blandit"
+        },
+        {
+            "id": 20,
+            "company": "Edgetag",
+            "objective": "ipsum primis in faucibus orci luctus et",
+            "items": "venenatis turpis enim blandit"
+        }
+    ],
+    "non-profit"[{
+        "id": 1,
+        "company": "Hodkiewicz-Brown",
+        "objective": "primis in faucibus orci luctus et ultrices",
+        "items": "duis at"
+      }, {
+        "id": 2,
+        "company": "Wintheiser-Russel",
+        "objective": "sit amet nunc viverra dapibus nulla suscipit ligula",
+        "items": "pretium iaculis diam erat"
+      }, {
+        "id": 3,
+        "company": "Schaefer-Keeling",
+        "objective": "eu magna vulputate luctus cum sociis natoque penatibus et magnis",
+        "items": "vel ipsum praesent blandit lacinia"
+      }, {
+        "id": 4,
+        "company": "Crist-Becker",
+        "objective": "proin at turpis a pede",
+        "items": "metus sapien ut"
+      }, {
+        "id": 5,
+        "company": "Bauch, Johnston and Mayert",
+        "objective": "vitae ipsum aliquam non mauris morbi",
+        "items": "metus arcu adipiscing molestie"
+      }, {
+        "id": 6,
+        "company": "Mueller, Feest and Welch",
+        "objective": "ut odio cras mi pede malesuada",
+        "items": "lacus at turpis donec"
+      }, {
+        "id": 7,
+        "company": "Senger-Will",
+        "objective": "nam dui proin leo odio",
+        "items": "quam turpis adipiscing lorem"
+      }, {
+        "id": 8,
+        "company": "Bailey Group",
+        "objective": "vestibulum proin eu mi nulla ac enim",
+        "items": "ac enim in tempor"
+      }, {
+        "id": 9,
+        "company": "Treutel Group",
+        "objective": "semper porta volutpat quam pede lobortis",
+        "items": "mauris sit"
+      }, {
+        "id": 10,
+        "company": "Kutch LLC",
+        "objective": "etiam justo etiam pretium iaculis justo in",
+        "items": "morbi non quam nec"
+      }, {
+        "id": 11,
+        "company": "Ritchie-Mraz",
+        "objective": "ut suscipit a feugiat et eros",
+        "items": "id nisl"
+      }, {
+        "id": 12,
+        "company": "Wunsch-Sauer",
+        "objective": "dui maecenas tristique est et tempus semper",
+        "items": "sapien quis libero nullam sit"
+      }, {
+        "id": 13,
+        "company": "Koepp-Wilkinson",
+        "objective": "eget tincidunt eget tempus vel",
+        "items": "amet nunc viverra dapibus nulla"
+      }, {
+        "id": 14,
+        "company": "Jacobs, Kuhlman and Beier",
+        "objective": "quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum",
+        "items": "amet nulla quisque arcu"
+      }, {
+        "id": 15,
+        "company": "Kulas, Kuphal and Buckridge",
+        "objective": "enim lorem ipsum dolor sit",
+        "items": "arcu libero rutrum"
+      }, {
+        "id": 16,
+        "company": "Wiegand-Cronin",
+        "objective": "in quis justo maecenas rhoncus aliquam",
+        "items": "nam dui proin leo odio"
+      }, {
+        "id": 17,
+        "company": "Feil and Sons",
+        "objective": "in faucibus orci luctus et",
+        "items": "aliquam augue quam"
+      }, {
+        "id": 18,
+        "company": "Green, Kuhic and O'Keefe",
+        "objective": "mi integer ac neque duis bibendum morbi non quam",
+        "items": "suspendisse potenti"
+      }, {
+        "id": 19,
+        "company": "Lubowitz, Herzog and Dooley",
+        "objective": "nisl ut volutpat sapien arcu sed augue aliquam erat volutpat",
+        "items": "praesent blandit"
+      }, {
+        "id": 20,
+        "company": "Spinka, Ankunding and Bradtke",
+        "objective": "quam fringilla rhoncus mauris enim leo rhoncus",
+        "items": "nulla sed vel enim"
+      }],
+    "local"[
+        {}
+    ]
+}

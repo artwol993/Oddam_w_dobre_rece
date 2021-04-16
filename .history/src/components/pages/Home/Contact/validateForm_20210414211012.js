@@ -3,10 +3,7 @@ export default function validateForm(values) {
 
     if (!values.username.trim()) {
         errors.username = "Podaj imie";
-    } else if (values.textarea.length < 2) {
-        errors.username = "Imie jest nieprawidłowe";
     }
-
 
     if (!values.email) {
         errors.email = "Podaj email";

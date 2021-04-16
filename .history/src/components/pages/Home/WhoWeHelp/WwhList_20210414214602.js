@@ -26,7 +26,7 @@ class WwhList extends Component {
             })
     }
 
-    fetchRemoteListNonProfit() {
+    fetchRemoteList() {
         return fetch('http://localhost:3000/non-profit/')
             .then(res => res.json())
             .then(data => {
@@ -38,7 +38,7 @@ class WwhList extends Component {
             })
     }
 
-    fetchRemoteListLocal() {
+    fetchRemoteList() {
         return fetch('http://localhost:3000/local/')
             .then(res => res.json())
             .then(data => {
@@ -142,3 +142,35 @@ class WwhList extends Component {
 }
 
 export default WwhList;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export default WwhSlider;

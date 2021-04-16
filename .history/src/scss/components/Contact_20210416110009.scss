@@ -3,24 +3,24 @@
 .contact-container {
     height: 800px;
     display: flex;
-}
 
-.contact-theme {
-    width: 80%;
-    height: 100%;
-    background-image: url("../../assets/Background-Contact-Form.jpg");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-    opacity: 0.2;
-}
+    .contact-theme {
+        width: 80%;
+        height: 100%;
+        background-image: url("../../assets/Background-Contact-Form.jpg");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        opacity: 0.2;
+    }
 
-.contact-box-form {
-    width: 45%;
-    padding: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    .contact-box-form {
+        width: 45%;
+        padding: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .form-success {
@@ -133,19 +133,25 @@
 
 @media screen and (max-width: 990px) {
     .contact-container {
-        height: auto;
-        width: 100%;
-        background-color: $c-bg1;
+        height: 800px;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
+        background-image: url("../../assets/Background-Contact-Form.jpg");
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        opacity: 0.2;
     }
+
     .contact-theme {
         display: none;
     }
-
     .contact-box-form {
+        height: 70%;
         width: 100%;
+        background-color: white;
+        opacity: 100;
+        z-index: 1;
     }
 }

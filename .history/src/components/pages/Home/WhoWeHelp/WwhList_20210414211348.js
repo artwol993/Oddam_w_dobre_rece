@@ -26,31 +26,6 @@ class WwhList extends Component {
             })
     }
 
-    fetchRemoteListNonProfit() {
-        return fetch('http://localhost:3000/non-profit/')
-            .then(res => res.json())
-            .then(data => {
-                this.setState({
-                    list: data
-                })
-
-                this.setCurrentPageElements()
-            })
-    }
-
-    fetchRemoteListLocal() {
-        return fetch('http://localhost:3000/local/')
-            .then(res => res.json())
-            .then(data => {
-                this.setState({
-                    list: data
-                })
-
-                this.setCurrentPageElements()
-            })
-    }
-
-
     setCurrentPageElements() {
         for (let i = 0; i < LOAD_ROWS; i++) {
             this.state.currentPageElements.push(this.state.list[i])
@@ -142,3 +117,35 @@ class WwhList extends Component {
 }
 
 export default WwhList;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export default WwhSlider;

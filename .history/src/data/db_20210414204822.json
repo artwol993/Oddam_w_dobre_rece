@@ -121,7 +121,7 @@
             "items": "venenatis turpis enim blandit"
         }
     ],
-    "non-profit": [
+    "non-profit"[
         {
             "id": 1,
             "company": "Hodkiewicz-Brown",
@@ -243,126 +243,7 @@
             "items": "nulla sed vel enim"
         }
     ],
-    "local": [
-        {
-            "id": 1,
-            "company": "Paucek, Heaney and Langosh",
-            "objective": "semper est quam pharetra magna ac",
-            "items": "id justo sit amet sapien"
-        },
-        {
-            "id": 2,
-            "company": "Stamm, Kassulke and Rodriguez",
-            "objective": "ultrices phasellus id sapien in sapien",
-            "items": "ac tellus semper"
-        },
-        {
-            "id": 3,
-            "company": "Hettinger-Gutmann",
-            "objective": "bibendum imperdiet nullam orci pede venenatis non sodales sed",
-            "items": "odio donec vitae nisi"
-        },
-        {
-            "id": 4,
-            "company": "Kris and Sons",
-            "objective": "accumsan felis ut at dolor",
-            "items": "etiam justo"
-        },
-        {
-            "id": 5,
-            "company": "Kilback, Satterfield and Greenholt",
-            "objective": "hac habitasse platea dictumst etiam faucibus",
-            "items": "tortor quis"
-        },
-        {
-            "id": 6,
-            "company": "Kutch-Anderson",
-            "objective": "nunc rhoncus dui vel sem sed sagittis nam",
-            "items": "etiam justo etiam pretium iaculis"
-        },
-        {
-            "id": 7,
-            "company": "Stark and Sons",
-            "objective": "non mi integer ac neque duis bibendum morbi non",
-            "items": "leo rhoncus"
-        },
-        {
-            "id": 8,
-            "company": "Rosenbaum, Friesen and Pfannerstill",
-            "objective": "platea dictumst morbi vestibulum velit",
-            "items": "sit amet sapien dignissim vestibulum"
-        },
-        {
-            "id": 9,
-            "company": "Farrell LLC",
-            "objective": "lobortis sapien sapien non mi integer ac neque",
-            "items": "lobortis convallis"
-        },
-        {
-            "id": 10,
-            "company": "Gislason-Hickle",
-            "objective": "augue quam sollicitudin vitae consectetuer eget",
-            "items": "duis faucibus"
-        },
-        {
-            "id": 11,
-            "company": "Cummerata, Johns and Brekke",
-            "objective": "id pretium iaculis diam erat fermentum",
-            "items": "blandit mi"
-        },
-        {
-            "id": 12,
-            "company": "Fadel-Walter",
-            "objective": "ut volutpat sapien arcu sed augue aliquam erat volutpat",
-            "items": "amet eleifend pede"
-        },
-        {
-            "id": 13,
-            "company": "Berge and Sons",
-            "objective": "diam nam tristique tortor eu",
-            "items": "mi sit"
-        },
-        {
-            "id": 14,
-            "company": "Carter Inc",
-            "objective": "arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean",
-            "items": "erat curabitur"
-        },
-        {
-            "id": 15,
-            "company": "Mertz-Terry",
-            "objective": "eleifend donec ut dolor morbi",
-            "items": "pretium iaculis"
-        },
-        {
-            "id": 16,
-            "company": "Herzog Group",
-            "objective": "quam fringilla rhoncus mauris enim",
-            "items": "duis faucibus accumsan"
-        },
-        {
-            "id": 17,
-            "company": "Prosacco and Sons",
-            "objective": "rhoncus sed vestibulum sit amet cursus id turpis integer aliquet",
-            "items": "cursus urna ut tellus nulla"
-        },
-        {
-            "id": 18,
-            "company": "Ziemann-Schmitt",
-            "objective": "lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar",
-            "items": "id justo sit"
-        },
-        {
-            "id": 19,
-            "company": "Gottlieb, Halvorson and Will",
-            "objective": "hac habitasse platea dictumst etiam",
-            "items": "morbi quis tortor id nulla"
-        },
-        {
-            "id": 20,
-            "company": "Hickle-Bruen",
-            "objective": "posuere nonummy integer non velit donec diam",
-            "items": "quam fringilla rhoncus"
-        }
+    "local":[
+        {}
     ]
 }
