@@ -3,9 +3,12 @@ import "../../../../scss/components/WhoWeHelp.scss";
 import WwhList from './WwhList';
 
 
+
 function WhoWeHelp() {
 
+    function showList() {
 
+    }
 
 
     return (
@@ -24,8 +27,6 @@ function WhoWeHelp() {
                 <div className="wwh-list">
                     <WwhList />
                 </div>
-
-
 
             </div>
 
