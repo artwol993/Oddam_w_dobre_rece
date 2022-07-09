@@ -10,15 +10,12 @@ const Contact = () => {
     setIsSubmitted(true);
   }
 
-
   return (
     <>
       <div className="contact-container" id="contact">
-
         <div className="contact-theme"></div>
         {!isSubmitted ? <ContactForm submitForm={submitForm} /> : <FormSuccess />}
       </div>
-
     </>
   )
 }

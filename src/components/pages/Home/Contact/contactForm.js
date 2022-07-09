@@ -16,6 +16,7 @@ const ContactForm = ({ submitForm }) => {
 					<h2>Skontaktuj się z nami</h2>
 					<div className="decoration"></div>
 				</div>
+
 				<div className="contact-box-form-container">
 					<div className="contact-box-form-part1">
 						<label htmlFor="username">Wpisz swoje imię</label>
@@ -30,6 +31,7 @@ const ContactForm = ({ submitForm }) => {
 						/>
 						{errors.username && <p>{errors.username}</p>}
 					</div>
+
 					<div className="contact-box-form-part2">
 						<label for="email">Wpisz swój email</label>
 						<input
@@ -63,11 +65,8 @@ const ContactForm = ({ submitForm }) => {
 				<div className="contact-button-box">
 					<button className="contact-button" type="submit" >Wyślij</button>
 				</div>
-
 			</form>
-
 		</div>
-
 	)
 }
 

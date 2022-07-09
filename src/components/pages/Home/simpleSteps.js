@@ -4,7 +4,6 @@ import '../../../scss/components/simpleSteps.scss';
 function SimpleSteps() {
   return (
     <>
-
       <div className="simple-steps-container">
 
         <div className="simple-steps-tittle">
@@ -26,7 +25,6 @@ function SimpleSteps() {
               <p>skorzystaj z worków na śmieci</p>
             </div>
           </div>
-
           <div className="simple-steps-part-section">
             <div className="simple-section-box">
               <div className="simple-steps-box-icon ss-ic-3"></div>
@@ -41,16 +39,11 @@ function SimpleSteps() {
               <p>kurier przyjedzie w dogodnym terminie</p>
             </div>
           </div>
-
-
         </div>
-
         <div className="simple-steps-footer">
           <button className="main-button">Oddaj rzeczy</button>
         </div>
-
       </div>
-
     </>
   )
 }

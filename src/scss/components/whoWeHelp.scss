@@ -1,12 +1,12 @@
 @import "../main.scss";
 
 .wwh-container {
-  height: 700px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .wwh-button {
@@ -23,7 +23,7 @@
 }
 
 .wwh-button:hover {
-  border: 1px solid $c-font1;
+  border: 1px solid $c-bg2;
 }
 
 .wwh-info {

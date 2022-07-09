@@ -10,6 +10,10 @@
     border: solid 1px $c-font1;
 }
 
+.main-button:hover {
+    border: 1px solid $c-bg2;
+}
+
 .contact-button {
     height: 50px;
     width: 120px;

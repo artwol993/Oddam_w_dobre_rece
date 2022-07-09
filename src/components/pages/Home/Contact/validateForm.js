@@ -7,7 +7,6 @@ export default function validateForm(values) {
     errors.username = "Imie jest nieprawidłowe";
   }
 
-
   if (!values.email) {
     errors.email = "Podaj email";
   } else if (!/\S+@\S+\.\S+/.test(values.email)) {

@@ -14,7 +14,7 @@ function WhoWeHelp() {
         <h2>Komu pomagamy?</h2>
         <div className="decoration"></div>
         <div className="wwh-button-contaier">
-          <button className="wwh-button">Fundacjom</button>
+          <button className="wwh-button">Fundacjom <br></br></button>
           <button className="wwh-button">Organizacjom pozarządowym</button>
           <button className="wwh-button">Lokalnym zbiórkom</button>
         </div>

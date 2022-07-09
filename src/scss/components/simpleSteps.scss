@@ -82,10 +82,15 @@
 .simple-steps-footer {
   margin: 20px;
 
-  .home-button {
+  .main-button {
     margin: 20px;
   }
+
+  .main-button:hover {
+    border-color: $c-bg2;
+  }
 }
+
 
 @media screen and (max-width: 990px) {
   .simple-steps-section {
