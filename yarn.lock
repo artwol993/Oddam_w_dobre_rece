@@ -3137,9 +3137,9 @@
     "lodash.uniq" "^4.5.0"
 
 "caniuse-lite@^1.0.0", "caniuse-lite@^1.0.30001335", "caniuse-lite@^1.0.30001359":
-  "integrity" "sha512-HpQhpzTGGPVMnCjIomjt+jvyUu8vNFo3TaDiZ/RcoTrlOq/5+tC8zHdsbgFB6MxmaY+jCpsH09aD80Bb4Ow3Sg=="
-  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001363.tgz"
-  "version" "1.0.30001363"
+  "integrity" "sha512-OyxRR4Vof59I3yGWXws6i908EtGbMzVUi3ganaZQHmydk1iwDhRnvaPG2WaR0KcqrDFKrxVZHULT396LEPhXfg=="
+  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001441.tgz"
+  "version" "1.0.30001441"
 
 "case-sensitive-paths-webpack-plugin@^2.4.0":
   "integrity" "sha512-roIFONhcxog0JSSWbvVAh3OocukmSgpqOH6YpMkCvav/ySIV3JKg4Dc8vYtQjYi/UxpNE36r/9v+VqTQqgkYmw=="
@@ -6992,10 +6992,10 @@
     "stdout-stream" "^1.4.0"
     "true-case-path" "^1.0.2"
 
-"node@^19.3.0":
-  "integrity" "sha512-y45/LdrEKlw2/RbeJjI7HccRX35tar2A8sfYvAJUfb86hTZilYxa11yyzVVoEolRHPwzB1mN3Jcw3ow75Diklw=="
-  "resolved" "https://registry.npmjs.org/node/-/node-19.3.0.tgz"
-  "version" "19.3.0"
+"node@^16.13.2":
+  "integrity" "sha512-6x0hohLASL0XaehYn1mrVw1UiiRjoxrujBxjqHGxGe/rFKKCJcDhoa5wNxxvBbyJm6mNgZYuzg0JTwvXmpeWWw=="
+  "resolved" "https://registry.npmjs.org/node/-/node-16.13.2.tgz"
+  "version" "16.13.2"
   dependencies:
     "node-bin-setup" "^1.0.0"
 
