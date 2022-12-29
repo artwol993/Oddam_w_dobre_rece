@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/oddam_w_dobre_rece/static/css/main.7d0f47e2.css",
+    "main.js": "/oddam_w_dobre_rece/static/js/main.eb268508.js",
+    "static/media/3_Columns_Background.png": "/oddam_w_dobre_rece/static/media/3_Columns_Background.54dcd134c6b5241e5fbc.png",
+    "static/media/Background-Contact-Form.jpg": "/oddam_w_dobre_rece/static/media/Background-Contact-Form.32df3446f14e2116a225.jpg",
+    "static/media/People.jpg": "/oddam_w_dobre_rece/static/media/People.2fa041c6275e64cce5d4.jpg",
+    "static/media/Home-Hero-Image.jpg": "/oddam_w_dobre_rece/static/media/Home-Hero-Image.0c4f237f9a7b8fab82f4.jpg",
+    "static/media/Icon-1.svg": "/oddam_w_dobre_rece/static/media/Icon-1.bd3d092ac43eb92350ab.svg",
+    "static/media/Icon-4.svg": "/oddam_w_dobre_rece/static/media/Icon-4.f1b3fb6d88016f0f9554.svg",
+    "static/media/Icon-3.svg": "/oddam_w_dobre_rece/static/media/Icon-3.564c1731a0ddca43e1da.svg",
+    "static/media/Icon-2.svg": "/oddam_w_dobre_rece/static/media/Icon-2.cfac69a113268e131dcb.svg",
+    "static/media/sent.svg": "/oddam_w_dobre_rece/static/media/sent.5f8f5c13e0c645f79689.svg",
+    "static/media/Signature.svg": "/oddam_w_dobre_rece/static/media/Signature.8f2a001d56e8f7d883e1.svg",
+    "static/media/Decoration.svg": "/oddam_w_dobre_rece/static/media/Decoration.aad75271e33dd889f25b.svg",
+    "index.html": "/oddam_w_dobre_rece/index.html",
+    "static/media/Hamburger_icon.svg": "/oddam_w_dobre_rece/static/media/Hamburger_icon.b778cb1777612594612f.svg",
+    "main.7d0f47e2.css.map": "/oddam_w_dobre_rece/static/css/main.7d0f47e2.css.map",
+    "main.eb268508.js.map": "/oddam_w_dobre_rece/static/js/main.eb268508.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d0f47e2.css",
+    "static/js/main.eb268508.js"
+  ]
+}
